@@ -6,7 +6,7 @@
 "build": "next build",
 "start": "next start -p 3070",
 "lint": "next lint",
-"cloudflare-build": "node node_modules/@cloudflare/next-on-pages/bin/next-on-pages.js build",
+"cloudflare-build": "npx @cloudflare/next-on-pages -- build",
 "cloudflare-dev": "npx @cloudflare/next-on-pages dev"
 },
 "dependencies": {
